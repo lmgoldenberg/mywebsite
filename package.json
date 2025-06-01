@@ -1,0 +1,15 @@
+{
+    "name": "mywebsite",
+    "version": "1.0.0",
+    "description": "My website",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Lewis Goldenberg",
+    "license": "ISC",
+    "dependencies": {
+        "express": "4.21.2"
+    }
+}
