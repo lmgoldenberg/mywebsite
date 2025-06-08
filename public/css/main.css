@@ -21,10 +21,48 @@ a{
 a:hover {
     font-weight: bold;
 }
+summary {
+  cursor: pointer;
+  display: inline-block
+}
+summary::before{
+    content: "⚙";
+    display: inline-block;
+    transition: transform 0.1s ease;
+    transform: rotate(180deg);
+    color: gray
+}
+details[open] summary::before {
+  transform: rotate(0deg);
+}
+summary:hover{
+    font-weight: bold;
+}
 #footer_text {
     margin: 0;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+h1{
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+h6 {
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+    color:rgb(174, 162, 162);
+    text-align: center;
+}
+#div_dropdowns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  gap: 10px;
+}
+details{
+    width:260px;
 }
