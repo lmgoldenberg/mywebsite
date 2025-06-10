@@ -61,4 +61,6 @@ h6 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
 }
