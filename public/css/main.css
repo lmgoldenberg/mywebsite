@@ -61,7 +61,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
-  justify-content: center;
+  justify-content: space-between;
 }
 details{
     width:20%;
