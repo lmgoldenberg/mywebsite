@@ -23,7 +23,8 @@ a:hover {
 }
 summary {
   cursor: pointer;
-  display: inline-block
+  display: inline-block;
+  list-style-type: none;
 }
 summary::before{
     content: "⚙";
