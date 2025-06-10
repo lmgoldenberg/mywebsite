@@ -72,6 +72,6 @@ h6 {
     width: 90%;
     margin: 0px auto;
 }
-details, details * {
+details[open] * {
     font-size: inherit;
 }
