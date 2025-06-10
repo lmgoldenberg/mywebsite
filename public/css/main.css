@@ -26,6 +26,9 @@ summary {
   display: inline-block;
   list-style-type: none;
 }
+details summary::-webkit-details-marker {
+  display:none;
+}
 summary::before{
     content: "⚙";
     display: inline-block;
