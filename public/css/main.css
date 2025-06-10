@@ -39,7 +39,7 @@ summary:hover{
     font-weight: bold;
 }
 #footer_text {
-    margin: 0 auto;
+    margin: 0px auto;
     position: relative;
     top: 50%;
     left: 50%;
@@ -63,4 +63,8 @@ h6 {
   justify-content: center;
   width: fit-content;
   margin: 0px auto;
+}
+#div_bio {
+    width: 80%;
+    margin: 0px auto;
 }
