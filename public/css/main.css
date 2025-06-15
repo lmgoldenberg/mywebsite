@@ -65,8 +65,8 @@ h6 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
-  width: 100%;
-  gap: 16px
+  width: 95%;
+  margin: 0px auto;
 }
 #div_bio {
     width: 90%;
