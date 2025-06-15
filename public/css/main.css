@@ -1,7 +1,8 @@
 body {
     background-color: #504A4B;
     color: white;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 footer {
     background-color: #414A4C;
@@ -55,7 +56,7 @@ h1{
     text-align: center;
 }
 h6 {
-    font-size: 8px;
+    font-size: 12px;
     padding: 0px;
     margin: 0px auto;
     color:rgb(174, 162, 162);
