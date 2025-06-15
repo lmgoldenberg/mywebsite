@@ -72,3 +72,6 @@ h6 {
     width: 95%;
     margin: 0px auto;
 }
+li{
+    font-size: inherit;
+}
